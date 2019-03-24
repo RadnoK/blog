@@ -4,7 +4,7 @@ title: Symfony Request Tips
 slug: /posts/symfony-adr-request-tip
 draft: false
 date: '2019-03-24T16:14:37.121Z'
-description: Test
+description: How to work with a `Request` parameters like a pro 😎.
 category: Tips
 tags:
   - '#Symfony'
