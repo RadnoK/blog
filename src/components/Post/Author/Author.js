@@ -31,8 +31,9 @@ export const Author = (props) => (
           siteMetadata {
             author {
               name
+              photo
               bio
-              contacts {       
+              contacts {
                 twitter
               }
             }
