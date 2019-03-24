@@ -1,10 +1,10 @@
 ---
 template: post
 title: Symfony Request Tips
-slug: /posts/symfony-adr-request-tip
+slug: /posts/symfony-request-tips
 draft: false
 date: '2019-03-24T16:14:37.121Z'
-description: How to work with a `Request` parameters like a pro 😎.
+description: How to work with a Symfony's Request parameters like a pro 😎.
 category: Tips
 tags:
   - '#Symfony'

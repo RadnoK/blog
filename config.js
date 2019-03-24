@@ -29,7 +29,7 @@ module.exports = {
   author: {
     name: 'Konrad Alfaro',
     photo: '/avatar.png',
-    bio: 'Software Engineer / PHP Developer.',
+    bio: 'Software Engineer believing that communication is the key to build a great software.',
     contacts: {
       email: 'me@radnok.com',
       twitter: 'RadnoK_',
