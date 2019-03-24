@@ -3,11 +3,11 @@
 module.exports = {
   url: 'https://blog.radnok.com',
   title: 'Blog by Konrad Alfaro',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  subtitle: 'Software Engineer and PHP Developer.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 6,
-  googleAnalyticsId: 'UA-73379983-2',
+  postsPerPage: 8,
+  googleAnalyticsId: 'UA-136824154-1',
   menu: [
     {
       label: 'Posts',
@@ -28,8 +28,8 @@ module.exports = {
     bio: 'Software Engineer / PHP Developer.',
     contacts: {
       email: 'me@radnok.com',
-      twitter: 'https://twitter.com/RadnoK_',
-      github: 'https://github.com/RadnoK'
+      twitter: 'RadnoK_',
+      github: 'RadnoK'
     }
   }
 };
