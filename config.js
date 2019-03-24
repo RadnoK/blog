@@ -5,13 +5,17 @@ module.exports = {
   title: 'Blog by Konrad Alfaro',
   subtitle: 'Software Engineer and PHP Developer.',
   copyright: '© All rights reserved.',
-  disqusShortname: '',
+  disqusShortname: 'konrad-alfaro-blog',
   postsPerPage: 8,
   googleAnalyticsId: 'UA-136824154-1',
   menu: [
     {
-      label: 'Posts',
+      label: 'All posts',
       path: '/'
+    },
+    {
+      label: 'Tags',
+      path: '/tags'
     },
     {
       label: 'About me',
@@ -24,12 +28,14 @@ module.exports = {
   ],
   author: {
     name: 'Konrad Alfaro',
-    photo: '/avatar.jpg',
+    photo: '/avatar.png',
     bio: 'Software Engineer / PHP Developer.',
     contacts: {
       email: 'me@radnok.com',
       twitter: 'RadnoK_',
-      github: 'RadnoK'
+      github: 'RadnoK',
+      facebook: 'alfaro.konrad',
+      linkedin: 'alfaro.konrad'
     }
   }
 };
