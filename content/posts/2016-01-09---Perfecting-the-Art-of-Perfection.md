@@ -14,6 +14,15 @@ Test
 
 
 
-```
-<?phpdeclare(strict_types=1);namespace App\Model;final class Player{}
+```php
+<?php
+
+declare(strict_types=1);
+
+namespace App\Model;
+
+final class Player
+{
+
+}
 ```
