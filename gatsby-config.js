@@ -185,6 +185,8 @@ module.exports = {
           camelCase: false,
         }
       }
-    }
+    },
+    'gatsby-redirect-from',
+    'gatsby-plugin-meta-redirect'
   ]
 };
