@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://blog.radnok.com',
+  url: 'https://radnok.blog',
   title: 'Blog by Konrad Alfaro',
   subtitle: 'Software Engineer and PHP Developer.',
   copyright: '© All rights reserved.',
@@ -34,7 +34,7 @@ module.exports = {
       email: 'me@radnok.com',
       twitter: 'RadnoK_',
       github: 'RadnoK',
-      facebook: 'alfaro.konrad',
+      speakerdeck: 'radnok',
       linkedin: 'alfaro.konrad'
     }
   }

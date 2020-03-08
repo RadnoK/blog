@@ -17,6 +17,9 @@ const getContactHref = (name, contact) => {
     case 'twitter':
       href = `https://www.twitter.com/${contact}`;
       break;
+    case 'speakerdeck':
+      href = `https://speakerdeck.com/${contact}`;
+      break;
     default:
       href = contact;
       break;

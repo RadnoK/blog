@@ -19,6 +19,9 @@ const getIcon = (name) => {
     case 'twitter':
       icon = ICONS.TWITTER;
       break;
+    case 'speakerdeck':
+      icon = ICONS.SPEAKERDECK;
+      break;
     default:
       icon = {};
       break;
