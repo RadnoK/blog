@@ -209,6 +209,12 @@ module.exports = {
                 }
               ]
             }
+          },
+          {
+            resolve: `@raae/gatsby-remark-oembed`,
+            options: {
+              usePrefix: ["oembed", "video"]
+            },
           }
         ]
       }
