@@ -11,7 +11,8 @@ module.exports = {
     copyright: siteConfig.copyright,
     disqusShortname: siteConfig.disqusShortname,
     menu: siteConfig.menu,
-    author: siteConfig.author
+    author: siteConfig.author,
+    siteUrl: siteConfig.url
   },
   plugins: [
     {
@@ -138,7 +139,8 @@ module.exports = {
           {
             site {
               siteMetadata {
-                url
+                url,
+                siteUrl
               }
             }
             allSitePage(
@@ -155,8 +157,16 @@ module.exports = {
           }
         `,
         output: '/sitemap.xml',
+        // serialize: ({ site, allSitePage }) =>
+        //   allSitePage.nodes.map(node => {
+        //     return {
+        //       url: `${site.siteMetadata.siteUrl}${node.path}`,
+        //       changefreq: `daily`,
+        //       priority: 0.7,
+        //     }
+        //   })
         serialize: ({ site, allSitePage }) => allSitePage.edges.map((edge) => ({
-          url: site.siteMetadata.url + edge.node.path,
+          url: 'https://radnok.blog' + edge.node.path,
           changefreq: 'daily',
           priority: 0.7
         }))
