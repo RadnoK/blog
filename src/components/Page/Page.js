@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import styles from './Page.module.scss';
 
 const Page = ({ title, children }) => {
