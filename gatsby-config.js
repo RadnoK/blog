@@ -6,7 +6,14 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: 'Konrad Alfaro',
+    siteTitleAlt: `Blog by Konrad Alfaro`,
+    siteDescription: 'Software Engineer and PHP Developer',
+    siteUrl: 'https://radnok.com',
+    siteHeadline: '',
+    siteImage: '',
+    siteLanguage: 'en',
+    author: 'Konrad Alfaro',
   },
   plugins: [
     {
@@ -15,7 +22,7 @@ module.exports = {
       options: {
         navigation: [
           {
-            title: `Blog`,
+            title: `Articles`,
             slug: `/blog`,
           },
           {
@@ -25,12 +32,16 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `GitHub`,
+            url: `https://github.com/RadnoK`,
           },
           {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            name: `Twitter`,
+            url: `https://twitter.com/RadnoK_`,
+          },
+          {
+            name: `LinkedIn`,
+            url: `https://linkedin.com/in/konrad-alfaro`,
           },
         ],
       },
