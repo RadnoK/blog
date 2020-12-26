@@ -11,7 +11,7 @@ module.exports = {
     siteDescription: 'Software Engineer and PHP Developer',
     siteUrl: 'https://radnok.com',
     siteHeadline: '',
-    siteImage: '',
+    siteImage: '/site-image.jpg',
     siteLanguage: 'en',
     author: 'Konrad Alfaro',
   },
@@ -20,10 +20,11 @@ module.exports = {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
+        blogPath: '/posts',
         navigation: [
           {
-            title: `Articles`,
-            slug: `/blog`,
+            title: `Blog`,
+            slug: `/posts`,
           },
           {
             title: `About`,
@@ -40,8 +41,8 @@ module.exports = {
             url: `https://twitter.com/RadnoK_`,
           },
           {
-            name: `LinkedIn`,
-            url: `https://linkedin.com/in/konrad-alfaro`,
+            name: `Hire me!`,
+            url: `https://apprife.com`,
           },
         ],
       },
@@ -56,9 +57,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `Konrad Alfaro`,
+        short_name: `konrad-alfaro`,
+        description: `Software Engineer and PHP Developer`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,

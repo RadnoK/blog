@@ -1,8 +1,6 @@
 ---
 title: Symfony Request Tip
 slug: /posts/symfony-request-tip
-redirect_from:
-  - /posts/symfony-request-tips
 date: 2019-03-24
 tags:
   - Symfony
@@ -55,11 +53,22 @@ know what our `request`s are and do.
 
 Don't worry, it's simple! Just use suitable properties from `Request` object. You can use:
 
-- `$request->attributes->get('your-parametr')` - fetching from `attributes` from the URL 
-`/twoj/path/{your-parametr}`
-- `$request->query->get('your-parametr')` - fetching from *query* to get extra values from your URL 
-`/twoj/path?{your-parametr}=your-value` (`$_GET`)
-- `$request->request->get('your-parametr')` - fetching from *request* to get a request `body` (`$_POST`)
+```php
+// /your/path/{your-attribute}/{another-attribute}
+$request->attributes->get('your-attribute') // value under your-attribute
+```
+Fetching from `attributes` from the URL
+
+```php
+// /your/path/?{your-parameter}=some-value`
+$request->query->get('your-parameter') // some-value
+```
+Fetching from *query* to get extra values from your URL
+
+```
+$request->request->get('your-parametr')
+```
+Fetching from *request* to get a request `body` (`$_POST`)
 
 Each `Request` attribute is a `ParameterBag` instance so you don't need to change anything except adding a property:
 
