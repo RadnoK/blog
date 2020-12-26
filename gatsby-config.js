@@ -79,6 +79,12 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `konrad-alfaro-blog`
+      }
+    },
     shouldAnalyseBundle && {
       resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,
       options: {
