@@ -42,7 +42,7 @@ const shadow = px.map((v) => `rgba(0, 0, 0, 0.15) 0px ${v} ${v} 0px`)
 const Post = ({ data: { post } }: PostProps) => {
   let { siteUrl } = useSiteMetadata();
   let disqusConfig = {
-    url: `${siteUrl + location.pathname}`,
+    url: `${siteUrl + post.slug}`,
     identifier: post.slug,
     title: post.title,
   }
